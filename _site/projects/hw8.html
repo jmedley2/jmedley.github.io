@@ -74,28 +74,30 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="from-the-vega-editor">From the Vega-Editor</h1>
-
-<vegachart schema-url="/assets/json/Viz1.json" style="width: 100%"></vegachart>
-
-<p>(Write up placeholder)</p>
-
-<h1 id="from-a-dictionary-in-altair-in-python">From a dictionary in Altair in Python</h1>
+  <h1 id="chart-1">Chart 1</h1>
 
 <vegachart schema-url="/assets/json/chart_1.json" style="width: 100%"></vegachart>
+
+<p>This plot is visualizing the amount of buildings acquired every year by department. I chose a color scheme that has high contrast so it is easier to decipher between departments since there are so many in the legend. I did some transformation on the Python side to reduce the amount of departments in the legend. I grouped all of the appellate courts together and all of the universities together. For interactivity, I decided to allow a zoom since the plot is so big. You can also click on a part of the legend to highlight that department on the axis as a whole. This makes it much easier to see the department you are wanting to look at.</p>
+
+<h1 id="chart-2">Chart 2</h1>
+
+<vegachart schema-url="/assets/json/chart_2.json" style="width: 100%"></vegachart>
+
+<p>This plot is vizualizing the amount of buildings in ‘abandon’, ‘in use’, and ‘in progress’ status. I did not have to use any data transformation with Python to display this visualization. This plot is not interactive either. besides from the tooltips, which make it easier to see the exact amounts of each status.</p>
 
 <h2 id="search-the-data--methods">Search The Data &amp; Methods</h2>
 
 <p>Below is where we can put some links to both the data and the analysis code as buttons:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="left"&gt;
-&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json"&gt;
+&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jmedley2/jmedley2.github.io/blob/main/python_notebooks/Buildings.csv"&gt;
   The Data
 &lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class="right"&gt;
-&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html"&gt;
+&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jmedley2/jmedley2.github.io/blob/main/python_notebooks/cleaning.ipynb"&gt;
   The Analysis
 &lt;/a&gt;
 &lt;/div&gt;
@@ -104,13 +106,13 @@
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/UIUC-iSchool-DataViz/is445_data/blob/main/building_inventory.csv">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jmedley2/jmedley2.github.io/blob/main/python_notebooks/Buildings.csv">
   The Data
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jmedley2/jmedley2.github.io/blob/main/python_notebooks/cleaning.ipynb">
   The Analysis
 </a>
 </div>
